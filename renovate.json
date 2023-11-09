@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>RightCapitalHQ/renovate-config"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["at any time"]
+  },
+  "packageRules": [
+    {
+      "groupName": "Non-major Updates",
+      "groupSlug": "auto-merge-non-major-updates",
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": false
+    }
+  ],
+  "prHourlyLimit": 10
+}
