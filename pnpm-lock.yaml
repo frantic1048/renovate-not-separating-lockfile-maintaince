@@ -9,11 +9,11 @@ dependencies:
     specifier: 0.0.4
     version: 0.0.4
   axios:
-    specifier: 1.5.0
-    version: 1.5.0
+    specifier: 1.6.1
+    version: 1.6.1
   lodash:
-    specifier: 4.8.0
-    version: 4.8.0
+    specifier: 4.17.21
+    version: 4.17.21
 
 packages:
 
@@ -21,20 +21,21 @@ packages:
     resolution: {integrity: sha512-zfMrYvd+54LWL0IG6gnFzcMtanXcAYkDsjAu2zsqXiYcPVVZdyHby0pIEa9hSmv9ENAPnIfDGleZrHaLKtuJpg==}
     engines: {node: '>= 6'}
     dependencies:
-      asty: 1.5.1
+      asty: 1.8.19
       sanitize-html: 1.27.5
     dev: false
 
-  /asty@1.5.1:
-    resolution: {integrity: sha512-QqAREYURzzfT3mGuqho6ZMkC4zY7nzJYTXN1c0pLBOwY1JE9Y6huKCJt++juGnPPvCNmsULZ7EU447JAkZr0rQ==}
+  /asty@1.8.19:
+    resolution: {integrity: sha512-TdrCKHUFEYzbrSfKR8BQwJAQsaavTFVUejFYfAe35o6uiLI3fPzRu6lYuIMnzSLJ6ZlbXE2JkWH+tSuGBNlBrA==}
+    engines: {node: '>=12.0.0'}
     dev: false
 
   /asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: false
 
-  /axios@1.5.0:
-    resolution: {integrity: sha512-D4DdjDo5CY50Qms0qGQTTw6Q44jl7zRwY7bthds06pUGfChBCTcQs+N743eFWGEd6pRTMd6A+I87aWyFV5wiZQ==}
+  /axios@1.6.1:
+    resolution: {integrity: sha512-vfBmhDpKafglh0EldBEbVuoe7DyAavGSLWhuSm5ZSEKQnHhBf0xAAwybbNH1IkrJNGnS/VG4I5yxig1pCEXE4g==}
     dependencies:
       follow-redirects: 1.15.3
       form-data: 4.0.0
@@ -123,10 +124,6 @@ packages:
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: false
-
-  /lodash@4.8.0:
-    resolution: {integrity: sha512-le8DgAtRoZUyhKrjm6O9zEXbBHR3XPtT2siu8cNTTQ8GdiBPlTsYOzkQuPf9xBQRSlkxRwNNOXVK9r8N0hGJCg==}
     dev: false
 
   /mime-db@1.52.0:
