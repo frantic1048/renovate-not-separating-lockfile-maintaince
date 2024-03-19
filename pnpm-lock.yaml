@@ -21,12 +21,13 @@ packages:
     resolution: {integrity: sha512-zfMrYvd+54LWL0IG6gnFzcMtanXcAYkDsjAu2zsqXiYcPVVZdyHby0pIEa9hSmv9ENAPnIfDGleZrHaLKtuJpg==}
     engines: {node: '>= 6'}
     dependencies:
-      asty: 1.5.1
+      asty: 1.8.21
       sanitize-html: 1.27.5
     dev: false
 
-  /asty@1.5.1:
-    resolution: {integrity: sha512-QqAREYURzzfT3mGuqho6ZMkC4zY7nzJYTXN1c0pLBOwY1JE9Y6huKCJt++juGnPPvCNmsULZ7EU447JAkZr0rQ==}
+  /asty@1.8.21:
+    resolution: {integrity: sha512-LxWJZ1WuxaGYXL7Q8Kx4BoHFGJvTkkQKow6Dy4gcJ3UiKaKdhZkqrBOwPybPR9JiUOzCeOhUdu6/xz4WBTU7OQ==}
+    engines: {node: '>=18.0.0'}
     dev: false
 
   /asynckit@0.4.0:
@@ -36,7 +37,7 @@ packages:
   /axios@1.5.0:
     resolution: {integrity: sha512-D4DdjDo5CY50Qms0qGQTTw6Q44jl7zRwY7bthds06pUGfChBCTcQs+N743eFWGEd6pRTMd6A+I87aWyFV5wiZQ==}
     dependencies:
-      follow-redirects: 1.15.3
+      follow-redirects: 1.15.6
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -93,8 +94,8 @@ packages:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
     dev: false
 
-  /follow-redirects@1.15.3:
-    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
+  /follow-redirects@1.15.6:
+    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
